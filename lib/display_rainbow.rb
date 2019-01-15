@@ -7,7 +7,7 @@ def display_rainbow(list)
   for i in list
     e = e + "#{i[0].upcase} : #{i}, "
   end
-  puts e
+  e = e[0:(e.length-1)]
 end
 
 
