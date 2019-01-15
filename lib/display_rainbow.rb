@@ -14,4 +14,4 @@ def display_rainbow(list)
 end
 
 
-puts display_rainbow(['red','green'])
+puts display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
