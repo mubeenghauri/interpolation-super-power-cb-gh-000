@@ -12,4 +12,4 @@ def display_rainbow(list)
 end
 
 
-display_rainbow(['red','green'])
+puts display_rainbow(['red','green'])
