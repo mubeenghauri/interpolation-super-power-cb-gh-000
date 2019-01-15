@@ -10,6 +10,7 @@ def display_rainbow(list)
   size = e.length - 2
   e =  e[0..size-1]  ### using string slicing to remove last "," (comma) from the string
   e = e + "\n"
+  puts e.type
   return e
 end
 
