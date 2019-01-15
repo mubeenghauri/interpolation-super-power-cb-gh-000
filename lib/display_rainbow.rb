@@ -4,12 +4,10 @@
 def display_rainbow(list)
 
   e = ""    ### empty string
-  ls = Array.new
   for i in list
-    e = "#{i[0].upcase} : #{i}"
-    ls.push e
+    e = e + "#{i[0].upcase} : #{i}"
   end
-  puts ls
+  puts e 
 end
 
 
