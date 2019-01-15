@@ -8,7 +8,8 @@ def display_rainbow(list)
     e = e + "#{i[0].upcase} : #{i}, "
   end
   size = e.length - 2
-  return e[0..size-1]  ### using string slicing to remove last "," (comma) from the string
+  e =  e[0..size-1]  ### using string slicing to remove last "," (comma) from the string
+  e = e + "\n"
 end
 
 
